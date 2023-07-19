@@ -1,3 +1,0 @@
-Cypress is automation tool
-
-SQL is oracle database

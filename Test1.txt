@@ -1,4 +1,0 @@
-Testing is high paid job
-As a tester we find defects
-
-ALM is a test case management tool
