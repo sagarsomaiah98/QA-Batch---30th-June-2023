@@ -3,6 +3,7 @@ package arrays;
 public class Array_Example {
 
 	public static void main(String[] args) {
+		//one dimensional array
 		
 		//DataType[] arrayName = new DataType[size]
 		
