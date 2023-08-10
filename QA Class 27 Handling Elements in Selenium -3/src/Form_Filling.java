@@ -6,10 +6,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Form_Filling  {
 	
-
+	public static int generateId() {
+		
+		int id=(int) (Math.random()*10000);
+		
+		return id;
+	}
 	
 
-    
 	public static void main(String[] args) throws InterruptedException {
 		
 	WebDriver driver = new ChromeDriver();
@@ -23,11 +27,11 @@ public class Form_Filling  {
 	driver.findElement(By.xpath("//input[@id='customer.address.zipCode']")).sendKeys("2134");
 	driver.findElement(By.xpath("//input[@id='customer.phoneNumber']")).sendKeys("0412345678");
 	driver.findElement(By.xpath("//input[@id='customer.ssn']")).sendKeys("123456");
-	driver.findElement(By.xpath("//input[@id='customer.username']")).sendKeys("john123");
+	driver.findElement(By.xpath("//input[@id='customer.username']")).sendKeys("John"+generateId());
 	driver.findElement(By.xpath("//input[@id='customer.password']")).sendKeys("123456");
 	driver.findElement(By.xpath("//input[@id='repeatedPassword']")).sendKeys("123456");
 	driver.findElement(By.xpath("//input[@value='Register']")).click();
-	driver.quit();
+	//driver.quit();
 
 		 
 		

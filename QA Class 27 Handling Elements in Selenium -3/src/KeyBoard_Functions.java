@@ -12,7 +12,6 @@ public class KeyBoard_Functions {
 		
 		
 		
-		System.setProperty("webdriver.chrome.driver","D:\\JARS\\jar_files\\chromedriver\\chromedriver.exe");
 		
 		WebDriver driver= new ChromeDriver();
 

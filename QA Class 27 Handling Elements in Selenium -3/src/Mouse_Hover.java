@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 
+
 public class Mouse_Hover {
 
 	public static void main(String[] args) throws InterruptedException {
@@ -20,6 +21,12 @@ public class Mouse_Hover {
 	driver.manage().window().maximize();
 		
 		driver.get("https://www.globalsqa.com/demo-site/"); // navigate to the url
+		
+		Actions act = new Actions(driver);
+		WebElement menu=driver.findElement(By.xpath("//a[@class='no_border'][normalize-space()='Free Ebooks']"));
+		act.moveToElement(menu).build().perform();//mouse hover on the webelement
+		
+		driver.findElement(By.xpath("//span[normalize-space()='Free Deep Learning eBooks']")).click();
 		
 		
 		
