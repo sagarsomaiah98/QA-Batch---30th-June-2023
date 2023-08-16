@@ -17,17 +17,9 @@ public class LoginTest {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 	
-		/*
-		 * WebDriver driver = new ChromeDriver(); driver.manage().window().maximize();
-		 * driver.get("https://www.saucedemo.com/");
-		 * driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys(
-		 * "standard_user");
-		 * driver.findElement(By.xpath("//input[@id='password']")).sendKeys(
-		 * "secret_sauce"); Thread.sleep(2000);
-		 * driver.findElement(By.xpath("//input[@id='login-button']")).click();
-		 * 
-		 * driver.quit();
-		 */
+		
+
+		 
 		
 FileInputStream fis = new FileInputStream("S:\\JANBASK\\QA Batch - 30th June 2023\\Excel_Paramterization\\src\\TESTDATA\\SAUCE_LOGIN.xlsx");
 		
@@ -43,13 +35,25 @@ FileInputStream fis = new FileInputStream("S:\\JANBASK\\QA Batch - 30th June 202
 		  
 		  for(int i=1;i<=lastRow;i++) {
 			  
-				for(int j=0;j<cellNo;j++) 
-				{
+				
 				  
 				  Row row= s1.getRow(i);
-				  Cell value=row.getCell(j);
-				  System.out.print(value+" |");
-				}
+				  Cell username=row.getCell(0);
+				  String uname=String.valueOf(username);
+				  Cell password=row.getCell(1);
+				  String pwd=String.valueOf(username);
+				  System.out.print(username+" |"+password);
+				  
+				  WebDriver driver = new ChromeDriver(); driver.manage().window().maximize();
+				  driver.get("https://www.saucedemo.com/");
+				  driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys(uname);
+				  driver.findElement(By.xpath("//input[@id='password']")).sendKeys(pwd); 
+				  Thread.sleep(2000);
+				  driver.findElement(By.xpath("//input[@id='login-button']")).click();
+				  
+				  driver.quit();
+				 
+				
 				  System.out.println();
 			  }
 		
