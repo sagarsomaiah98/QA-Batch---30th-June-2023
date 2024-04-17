@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 
 import Pages.LoginPage;
 import TestBase.TestBase;
+import TestUtil.ExtentReportManager;
 import TestUtil.Util;
 
 public class LoginTest extends TestBase {
@@ -28,6 +29,7 @@ public class LoginTest extends TestBase {
 		l.login("standard_user", "secret_sauce");
 		String actual=driver.findElement(By.xpath("//span[@class='title']")).getText();
 		Util.Screenshot();
+		ExtentReportManager.getReports();
 		
 		assertEquals(actual, "Products");
 		}

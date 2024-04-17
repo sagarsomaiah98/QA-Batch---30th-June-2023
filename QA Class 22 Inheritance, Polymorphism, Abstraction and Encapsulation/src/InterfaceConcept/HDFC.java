@@ -1,32 +1,38 @@
 package InterfaceConcept;
 
-public class HDFC implements CentralBank{
+public class HDFC implements CentralBank {
 
 	public static void main(String[] args) {
-    HDFC h = new HDFC();
-    h.savings();
-    
-    h.insurance();
+		// TODO Auto-generated method stub
 
 	}
 
 	@Override
-	public void savings() {
-		System.out.println("hdfc minimum saving balance is 25000 dollars");
+	public void saving() {
+		// TODO Auto-generated method stub
 		
 	}
 
-	
-	
+	@Override
+	public void loans() {
+		// TODO Auto-generated method stub
+		
+	}
 
 	@Override
 	public void insurance() {
-		System.out.println("HDFC insurance charges are 100$ per year");
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void kyc() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void current() {
 		// TODO Auto-generated method stub
 		
 	}

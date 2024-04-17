@@ -1,22 +1,20 @@
 package InheritanceConcept;
 
-public class Child extends Parent {
+public class Child extends Parent{
 	
-	public void childMethod() {
+	public void car() {
 		
-		System.out.println("Child method defined inside child class");
+		System.out.println("Car belongs to child");
 	}
 
 	public static void main(String[] args) {
 		
-
 		Child c = new Child();
-		c.childMethod();
-		c.method1();
-		c.method2();
-		System.out.println(c.name);
-		System.out.println(c.age);
-		
+		c.car();
+		c.house();
+		c.factory();
+		System.out.println(c.grad);
+		System.out.println(c.lname);
 	}
 
 }

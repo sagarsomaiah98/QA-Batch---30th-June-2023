@@ -1,36 +1,32 @@
 package ListConcept;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class AL {
 
 	public static void main(String[] args) {
 		
-		ArrayList<String> al = new ArrayList<String>();
-		al.add("john");
-		al.add("steve");
-		al.add("bruce");
-		al.add("adam");
+		List<String> students= new ArrayList<String>();
 		
-		System.out.println(al.size());
-		al.add("peter");
-		al.add("bruce");
-		System.out.println(al.size());
+		students.add("steve");
+		students.add("jack");
+		students.add("Chris");
+		//students.add(23);
 		
-		System.out.println(al.get(5));
-		System.out.println("********************");
+		System.out.println(students.size());
+		students.add("henry");
+		students.add("dean");
+	//	System.out.println(students.size());
 		
-		for(int i=0;i<al.size();i++)
-			System.out.println(al.get(i));
+	//	System.out.println(students.get(6));
 		
-		System.out.println("********************");
-		ArrayList<Object> data = new ArrayList<Object>();
-		data.add("Jack");
-		data.add(23);
-		data.add(12.36);
-		data.add('A');
-		for(int i=0;i<data.size();i++)
-			System.out.println(data.get(i));
+		
+		for(int i=0;i<students.size();i++) {
+			
+			System.out.println(students.get(i));
+		}
+		
 		
 	}
 

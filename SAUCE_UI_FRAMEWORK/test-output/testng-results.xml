@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-18T21:12:38 GMT-04:00" name="Default suite" finished-at="2023-08-18T21:12:51 GMT-04:00" duration-ms="12475">
+  <suite started-at="2023-10-27T12:53:29 GMT-04:00" name="Default suite" finished-at="2023-10-27T12:53:39 GMT-04:00" duration-ms="9763">
     <groups>
     </groups>
-    <test started-at="2023-08-18T21:12:38 GMT-04:00" name="Default test" finished-at="2023-08-18T21:12:51 GMT-04:00" duration-ms="12475">
+    <test started-at="2023-10-27T12:53:29 GMT-04:00" name="Default test" finished-at="2023-10-27T12:53:39 GMT-04:00" duration-ms="9763">
       <class name="TestCases.LoginTest">
-        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.LoginTest@4310d43]" started-at="2023-08-18T21:12:38 GMT-04:00" name="launch" finished-at="2023-08-18T21:12:46 GMT-04:00" duration-ms="7465" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.LoginTest@7fee8714]" started-at="2023-10-27T12:53:29 GMT-04:00" name="launch" finished-at="2023-10-27T12:53:34 GMT-04:00" duration-ms="5088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="inValidLogin()[pri:0, instance:TestCases.LoginTest@4310d43]" started-at="2023-08-18T21:12:46 GMT-04:00" name="inValidLogin" finished-at="2023-08-18T21:12:46 GMT-04:00" duration-ms="734" status="PASS">
+        <test-method signature="inValidLogin()[pri:0, instance:TestCases.LoginTest@7fee8714]" started-at="2023-10-27T12:53:34 GMT-04:00" name="inValidLogin" finished-at="2023-10-27T12:53:35 GMT-04:00" duration-ms="632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.LoginTest@4310d43]" started-at="2023-08-18T21:12:46 GMT-04:00" name="teardown" finished-at="2023-08-18T21:12:47 GMT-04:00" duration-ms="337" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.LoginTest@7fee8714]" started-at="2023-10-27T12:53:35 GMT-04:00" name="teardown" finished-at="2023-10-27T12:53:35 GMT-04:00" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.LoginTest@4310d43]" started-at="2023-08-18T21:12:47 GMT-04:00" name="launch" finished-at="2023-08-18T21:12:49 GMT-04:00" duration-ms="2590" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.LoginTest@7fee8714]" started-at="2023-10-27T12:53:35 GMT-04:00" name="launch" finished-at="2023-10-27T12:53:37 GMT-04:00" duration-ms="1876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="validLogin()[pri:0, instance:TestCases.LoginTest@4310d43]" started-at="2023-08-18T21:12:49 GMT-04:00" name="validLogin" finished-at="2023-08-18T21:12:50 GMT-04:00" duration-ms="933" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:TestCases.LoginTest@7fee8714]" started-at="2023-10-27T12:53:37 GMT-04:00" name="validLogin" finished-at="2023-10-27T12:53:38 GMT-04:00" duration-ms="1494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.LoginTest@4310d43]" started-at="2023-08-18T21:12:50 GMT-04:00" name="teardown" finished-at="2023-08-18T21:12:51 GMT-04:00" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.LoginTest@7fee8714]" started-at="2023-10-27T12:53:38 GMT-04:00" name="teardown" finished-at="2023-10-27T12:53:39 GMT-04:00" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
